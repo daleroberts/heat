@@ -1,3 +1,7 @@
-Example solvers for the heat equation.
+Finite difference solvers for the heat equation in 1 and 2 dimensions.
+
+Various algorithms (semidiscrete, explicit, LOD, Peaceman-Rachford,
+Crank-Nicholson, etc) implemented in various languages (C, Fortran, Python,
+Matlab) for teaching purposes.
 
 Dale Roberts <dale.o.roberts@gmail.com>

@@ -53,7 +53,10 @@ t, p = np.linspace(0.0, 2.0, 256, retstep=True)
 
 xm, tm = np.meshgrid(x, t)
 
+import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 
 Axes3D(pylab.figure()).plot_surface(xm, tm, U, cmap=cm.jet, alpha=0.8)
+
+plt.show()
